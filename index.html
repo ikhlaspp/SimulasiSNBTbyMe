@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi SNBT by unknown </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+                <h3 class="text1">SNBT 2023</h3>
+              <nav>
+                <ul class="nav nav-pills pull-right">
+                  <li><a href="https://www.bppp.kemdikbud.go.id/">Home</a></li>
+                  <li class="active"><a href="https://pmb.usk.ac.id/">Pengumuman</a></li>
+                  <li><a href="https://halo-snpmb.bppp.kemdikbud.go.id/">HALO</a></li>
+                </ul>
+              </nav>
+            </div>
+    </header>
+    <div class="section">
+        <div class="alert alert-info">Pengumuman SNBT 2023 dapat dilihat mulai tanggal 20 Juni 2023 pukul 15:00 WIB</div>
+
+        <div class="jumbotron">
+          <h1>Pengumuman</h1>
+          <p class="lead" id="clock"></p>
+        </div>
+    </div>
+    <div class="content" id="content">
+        <button onclick="btn1()" id="btn1" class="btn-1"> Coba Simulasi</button>
+
+    </div>
+    <div id="pop_up" class="pop_up">
+        <p style="font-weight: bold;">PENGUMUMAN HASIL SELEKSI SNBT 2023</p>
+        <div class="content_1">
+            <img src="src/wa.png" class="img1"/>
+            <div class="content_1_1">
+            <table class="content_1_1_items"> 
+                <tr>
+                <td>Nomor peserta</td>
+                <td id="value_no_pst" style="font-weight: bold;"></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td id="value_nama" style="font-weight: bold;"></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir</td>
+                <td id="value_tgl" style="font-weight: bold;"></td>
+            </tr>
+            </table>
+                <p class="content_1_1_items">Selamat! Anda dinyatakan lulus seleksi SNBT 2023 di</p>
+            <table class="content_1_1_items">
+                <tr>
+                    <td>PTN</td>
+                    <td id="value_ptn" style="font-weight: bold;"></td>
+                </tr>
+                <tr>
+                    <td>Program Studi</td>
+                    <td id="value_prodi" style="font-weight: bold;"></td>
+                </tr>
+            </table>
+                <p class="content_1_1_items">Persyaratan pendaftaran ulang calon mahasiswa baru dapat dilihat di <a href="#"">sini</a></p>
+                <p class="content_1_1_items">Anda dapat mencetak kembali Kartu Tanda Peserta UTBK-SNBT 2023 di <a href="#">sini</a></p>
+            </div>
+        </div>
+        <div class="content_2">
+            <button onclick="btn2()" class="btn2">reset</button>
+        </div>
+        </div>
+        <footer>
+            <p> @2023 SNBT <p style="color: #337AB7;">edited by <a target="_blank" href="https://www.instagram.com/ikhlaspp/">ikhlas</a></p>
+        </p>
+        </footer>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js'></script>
+    <script src="index.js"></script>
+</body>
+</html>
